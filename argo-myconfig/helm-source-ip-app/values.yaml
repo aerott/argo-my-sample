@@ -9,7 +9,7 @@ configmap:
 
 image:
   repository: docker.io/ealen/echo-server
-  tag: 0.1
+  tag: latest
   pullPolicy: IfNotPresent
 
 containerPort: 80
